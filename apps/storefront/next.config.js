@@ -57,7 +57,8 @@ module.exports = withBundleAnalyzer({
     return [
       {
         source: "/checkout/",
-        destination: `${process.env.NEXT_PUBLIC_CHECKOUT_URL}/`,
+//         destination: `${process.env.NEXT_PUBLIC_CHECKOUT_URL}/`,
+        destination: "https://react-storefront-checkout-eight.vercel.app/checkout-spa/",
       },
       {
         source: `${checkoutEmbededInStorefrontPath}/`,
